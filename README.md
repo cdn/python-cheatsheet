@@ -708,7 +708,7 @@ class MyComparable:
 ```
 
 ### Hashable
-* **Hashable object needs both hash() and eq() methods and it's hash value should never change.**
+* **Hashable object needs both hash() and eq() methods and its hash value should never change.**
 * **Hashable objects that compare equal must have the same hash value, meaning default hash() that returns `'id(self)'` will not do.**
 * **That is why Python automatically makes classes unhashable if you only implement eq().**
 
@@ -1282,7 +1282,7 @@ param_names  = list(sig.parameters.keys())
 ```
 
 ### Type
-**Type is the root class. If only passed the object it returns it's type. Otherwise it creates a new class (and not the instance!).**
+**Type is the root class. If only passed the object it returns its type. Otherwise it creates a new class (and not the instance!).**
 
 ```python
 type(<class_name>, <parents_tuple>, <attributes_dict>)
